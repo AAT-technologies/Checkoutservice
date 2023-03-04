@@ -9,7 +9,7 @@ pipeline {
           sh ''' sudo docker system prune -af
           '''
          
-         sh ''' cd app/checkoutservice
+         sh ''' cd app-check/checkoutservice
                    ls
                    sudo docker build -t delalixx/checkoutservice .
                    sudo docker push delalixx/checkoutservice
