@@ -46,7 +46,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: delalixx/checkoutservice:latest
+          image: delalixx/checkoutservice:v1
           ports:
           - containerPort: 5050
           readinessProbe:
